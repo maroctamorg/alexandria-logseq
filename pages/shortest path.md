@@ -1,0 +1,6 @@
+- #[[Design and Analysis of Algorithms]]
+- [[shortest path (DAG)]]
+- [[Bellman-Ford algorithm]]
+- [[remarks]]
+	- many minimisation problems can be reduced to [[shortest path]] problems
+		- especially non-[naïve/greedy] minimization problems (e.g. [[Lempel-Zig parsing]]), can translate to weighted [[shortest path (DAG)]] problems

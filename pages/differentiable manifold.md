@@ -1,0 +1,18 @@
+- #[[Riemannian Geometry]], #topology
+- [[definition]]
+	- We say that charts $(U, x)$ and $(V, y)$ are $C^\infty$-compatible if
+		- $U \cap V = \empty$ or
+		- $z = y \circ x^{-1}|x(U \cap V) : x(U \cap V) \to y(U \cap V)$ is a $C^\infty$-[[diffeomorphism]]
+	- A $C^\infty$-[[atlas]], $\mathcal{A}$ of $M$, is a set of $C^\infty$-compatible charts covering $M$
+		- $\mathcal{A}$, is a [[maximal atlas]] if $\mathcal{A} = \mathcal{B}$ for all $C^\infty$-atlases $\mathcal{B} \supset \mathcal{A}$
+			- i.e. $(U, x) \in \mathcal{A}$ if it is $C^\infty$-compatible with every chart in $\mathcal{A}$
+	- A **differentiable n-manifold** (or a **smooth n-manifold**) is a pair $(M,\mathcal{A})$, where $M$ is a [[topological manifold]] (n-manifold) and $\mathcal{A}$ is a maximal $C^\infty$-[[atlas]] of $M$, also called a differentiable structure of $M$.
+		- we say that $M$ is a $C^\infty$-manifold
+	- Let $(M^m, \mathcal{A})$ and $(N^n, \mathcal{B})$ be $C^\infty$-manifolds. We say that a mapping $f: M \to N$ is $C^\infty$ is [[(topology-)continuous]] - or a [[smooth (manifold) mapping]] - if each [[local representation]] of $f$ (with respect to $\mathcal{A}, \mathcal{B}$) is $C^\infty$ ([[diffeomorphism]], in the real-analysis sense).
+		- i.e. $y \circ f \circ x^{-1}$ is a [[smooth mapping]] $x(U \cup f^{-1}V) \to yV$ for every pair of charts $(U,x) \in \mathcal{A}, (V, y) \in \mathcal{B}$.
+			- or rather, if for every $p \in M, \exists (U, x) \in M, (V, y) \in N$ s. that
+			  $p \in U, fU \subset V$ and $y \circ f \circ x^{-1}$ is $C^{-\infty}$ on $xU$
+				- lecture notes say this is equivalent, but not really sure about the first phrasing
+		- we say that $f: M \to N$ is a ($C^\infty$-) [[smooth (manifold) diffeomorphism]] if $f, f^{-1}$ are both $C^\infty$
+- [[submanifold]]
+- [[orientation]]

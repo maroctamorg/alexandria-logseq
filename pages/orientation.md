@@ -1,0 +1,12 @@
+- #[[differential geometry]], #[[Riemannian Geometry]]
+- [[definition]]
+	- A [[differentiable manifold]] $M$ is [[orientable]] if it admits a smooth [[atlas]] $\{(U_\alpha, x_\alpha\}$ such that for every $\alpha$ and $\beta$, with $U_\alpha \cap U_\beta = W \ne \empty$, the [[Jacobian]] [[determinant]] of $x_\beta \circ x_\alpha^{-1}$ is positive at each point $q \in x_\alpha W$, i.e.:
+	  $$det(x_\beta \circ x_\alpha^{-1})'(q) > 0, \forall q \in x_\alpha W$$
+	- In such case, the atlas is called an [[orientation]] of $M$.
+	- Furthermore, $M$ equipped with such atlas is said to be [[oriented]].
+	- In the opposite case (negative at some point) $M$ is [[nonorientable]].
+	- Two [[orientations]] are said to be the same if their union is an [[orientation]].
+- [[remarks]]
+	- An [[orientable]] and [[connected]] [[differentiable manifold]] has exactly two distinct [[orientations]].
+	- If $f : M \to N$ is a [[diffeomorphism]], then $M$ is [[orientable]] if and only if $N$ is.
+		- $f$ induces an orientation on $N$, and it if preservers the [[orientation]], then we say that $f$ is [[sense-preserving]]. Otherwise $f$ is called [[sense-reversing]].

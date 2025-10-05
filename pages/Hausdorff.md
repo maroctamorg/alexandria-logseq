@@ -1,0 +1,3 @@
+- #topology
+- [[definition]]
+	- A [[topological space]] $(X, \mathcal{T})$ is [[Hausdorff]] iff any two points of X have disjoint [[(topology-)neighborhood]]s

@@ -1,0 +1,15 @@
+- [[definition]]
+	- A [[topology]] $\mathcal{T}$ in a set $X$ is a collection of subsets of $X$ s. that
+		- $\mathcal{T}$ is closed under arbitrary unions
+		- $\mathcal{T}$ is closed under finite intersections
+		- $\empty, X \in \mathcal{T}$
+	- [[(topology-)open]]
+	- [[(topology-)closed]]
+	- A [[set]] equipped with a [[topology]] $(X, \mathcal{T})$ is called [[topological space]]
+	- [[(topology-)neighborhood]]
+	- [[Hausdorff]]
+	- [[(topology-)basis]]
+	- [[(topology-)compact]]
+	- [[homeomorphism]]
+	- [[induced topologies]]
+	-

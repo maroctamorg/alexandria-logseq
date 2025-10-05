@@ -1,0 +1,11 @@
+- #[[Design and Analysis of Algorithms]]
+- Let $G = (E, V)$ be a general [[graph]] with no negative cost [[cycle]]s (if there are, then the [[shortest path]] is undefined), and a unique source $s$ and sink $t$. The goal is to obtain the [[shortest path]] between $s$ and $t$, and we do this by reducing this problem to [[shortest path (DAG)]].
+- [[algorithm]]
+	- Make $n = |V|$ copies of the [[graph]], directing all edges from copy $i-1$ to copy $i$ for $i \in [2..n]$.
+	- This is a [[directed acyclic graph]], so we can find the [[shortest path]]s from source $s$ to all copies of $t$ via [[shortest path (DAG)]].
+		- These correspond to [[shortest path]]s of length $1, 2, ..., n$.
+		  One can pick the one of these with minimum cost as the solution.
+- [[analysis]]
+	- The algorithm takes $O(|V||E|)$.
+		- $n(|V|+|E|) = |V|(|V|+|E|) = O(|V||E|$)?
+		- number of vertices and edges is the same for all $in \in [1 .. n]$

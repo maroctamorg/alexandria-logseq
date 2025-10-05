@@ -1,0 +1,24 @@
+- [[quicksort]] is a [[recursive]] [[algorithm]]
+- elements
+	- [[pivot]]
+- [[algorithm]]
+	- [[pivot]] partitions the array into 2 subsets of smaller and larger items ([[linear time])
+	- apply the same to the new arrays
+	- a [[recursion tree]] is formed (picture a tree)
+	- concatenating the leaves ([[linear time]]) of the tree you obtain the sorted array
+- [[analysis of recurrences]]
+	- ([[intuition]])
+		- bad [[pivot]] causes [[recursion tree]] to be [[skewed]]
+			- if the array is [[sorted]] and you pick the first element as [[pivot]], then
+				- [[running time]] is $O(n^2)$
+		- with [[random pivot]]
+			- [[expected running time]] is $O(n \log n)$
+		- with perfect [[median pivot]]
+			- [[median]]
+			- the [[recursion tree]] is split into two equal parts on each level, so that there are $\log n$ levels with linear time on each level
+				- [[running time]] is $O(n \log n)$
+	- [[recurrence methods]]
+		- [[recursion tree]] - multiply time complexity of each level with the number of levels
+		- [[substitution method]] for [[recurrence formula]] on [[median pivot]]
+		- $T(n) = 2T(n/2) + O(n)$, with $T(1) = O(1)$
+		- solution by [[substitution method]]

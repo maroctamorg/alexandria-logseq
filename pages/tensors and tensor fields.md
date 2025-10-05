@@ -1,0 +1,8 @@
+- #[[differential geometry]],  #[[Riemannian Geometry]]
+- [[definition]]
+	- [[dual space]]
+	- [[tensor]]
+	- [[tensor (abstract algebra)]]
+	- [[contraction]]
+	-
+	-

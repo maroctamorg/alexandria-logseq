@@ -1,0 +1,4 @@
+- #topology
+- [[definition]]
+	- Elements of a [[topology]] $\mathcal{T}$ are said to be [[(topology-)open]]
+		- $A \subseteq X$ is [[(topology-)open]] iff $\forall x \in A, \exists U(x) \in \mathcal{T}$  s.t. $x \in U(x) \subseteq A$

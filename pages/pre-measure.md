@@ -1,0 +1,12 @@
+- #algebra, #[[measure theory]], #[[Probability Theory]]
+- [[definition]]
+	- $\mu : \mathcal{R} \to \R_{\ge 0}$ is a **pre-measure** on [[semi-ring]] $\mathcal{R}$ iff
+		- $\mu(\empty) = 0$
+		- $\mu$ is [[finitely additive]] on $\mathcal{R}$
+		- $A = \bigcup_{i=1}^\infty A_i$ with $A, A_i \in \mathcal{R}$, we have $\mu(A) \le \sum_{i=1}^\infty \mu(A_i)$
+- [[remarks]]
+	- the conditions are the *same as for a [[measure]] but we reserve the term for functions on a [[sigma-algebra]]
+		- notable difference is that the additivity is restricted to finite unions
+- [[theorem]]
+	- [[Caratheodory extension theorem]]
+	-

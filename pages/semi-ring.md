@@ -1,0 +1,15 @@
+- #algebra, #[[measure theory]], #[[Probability Theory]]
+- [[definition]]
+	- A collection $\mathcal{R} \subset 2^\Omega$ is called a **semi-ring** iff:
+		- $\empty \in \mathcal{R}$
+		- $\mathcal{R}$ is a [[pi-system]], i.e. closed under intersections
+		- if $A, B \in \mathcal{R}$, then $\exists A_1,..,A_n \in \mathcal{R}$ s. t. $A \setminus B = \bigcup_{i=1}^n A_i$
+	- We say that $\mu$ is a [[finitely additive]] function on a [[semi-ring]] $\mathcal{R}$ iff
+		- $\mu(A) = \mu(\bigcup_{i=1}^n A_i) = \sum_{i=1}^n \mu(A_i)$, where $A_i \in \mathcal{R}$ are disjoint
+	- [[pre-measure]]
+- [[lemma]]
+	- Let $\mathcal{R}_0$ be a **semi-ring**, then
+		- $\mathcal{R} := \{\bigcup_{i=1}^n A_i : n \in \N, A_i \in \mathcal{R}_0, \{A_i\}_{i=1}^n$ [[disjoint]]$\}$
+		  is also a **semi-ring**, and moreover it is also a [[ring]]
+- [[remarks]]
+	- it is trivial to show that a [[sigma-algebra]] is a **semi-ring**

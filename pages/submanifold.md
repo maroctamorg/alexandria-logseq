@@ -1,0 +1,11 @@
+- #[[differential geometry]], #[[Riemannian Geometry]]
+- [[definition]]
+	- Let $M$ and $N$ be [[differentiable manifold]]s and $f : M \to N$ a [[smooth (manifold) mapping]].
+	  We say that:
+		- $f$ is a [[submersion]] if $f_{*p} : T_pM \to T_{f(p)}N$ is [[surjective]] $\forall p \in M$.
+		- $f$ is an [[immersion]] if $f_{*p} : T_pM \to T_{f(p)}N$ is [[injective]] $\forall p \in M$.
+		- $f$ is an [[embedding]] if $f$ is an [[immersion]] and $f : M \to fM$ is a [[homeomorphism]] (with respect to the [[relative topology]] in $fM$).
+	- If $M \subset N$ and the [[inclusion]] $i : M \xhookrightarrow{} N, i(p) = p$ is an [[embedding]], we say that $M$ is a [[submanifold]] of $N$
+	- If $f : M^m \to N^n$ is an [[immersion]], then $m \le n$ and $n-m$ is the [[codimension]] of $f$.
+- [[theorem]]
+	- Let $f : M^m \to N^n$ be an [[immersion]]. Then each point $p \in M^m$ has a [[(topology-)neighborhood]] $U$ such that $f|U : U \to N^n$ is an [[embedding]].

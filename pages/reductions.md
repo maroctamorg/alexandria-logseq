@@ -1,0 +1,3 @@
+- Given a new problem, it can be shown that an optimal solution of the new problem can be **reduced** (i.e. expressed as) an optimal solution to an "*old*" (*known*) problem
+- [[reduction map]]
+-

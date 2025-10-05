@@ -1,0 +1,1 @@
+- $$\mathbb{P}(B|A)=\frac{\mathbb{P}(A|B)\mathbb{P}(B)}{\mathbb{P}(A)}$$

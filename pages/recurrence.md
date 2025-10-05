@@ -1,0 +1,18 @@
+- [[analysis of recurrences]]
+	- [[recurrence formula]]
+		- relates $T(n)$ to $T_i(m_i)$ where $m_i, T_i$ are the sizes and running time of the inputs on the next recursion layer
+	- [[recurrence methods]]
+		- [[substitution method]]
+		- [[recursion-tree method]]
+		- [[master method]]
+- [[algorithms]]
+	- [[sorting]]
+		- [[quicksort]]
+	- [[maximum difference]]
+	- [[matrix-multiplication]]
+	- [[median-finding]]
+	- [[Karatsuba-integer-multiplication]]
+- [[conceptual-notes]]
+	- [[recurrence]] is a useful tool as it allows us to take advantage of [[divide-and-conquer]]
+	-
+	-

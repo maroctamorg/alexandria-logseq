@@ -1,0 +1,1 @@
+- An **injection** is a map satisfying that each element in the [[codomain]] is mapped to by **at most one** element in the [[domain]].

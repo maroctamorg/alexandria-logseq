@@ -1,0 +1,6 @@
+- #[[measure theory]], #[[Probability Theory]]
+- [[definition]]
+	- In the special case of [[Radon-Nikodym derivative]] for [[Lebesgue measure]] $\mu$, and [[probability measure]] $\mu'$ (i.e. a [[random variable distribution]]) - the function $f$ is called [[probability density]].
+- [[remarks]]
+	- If the [[probability distribution function]] $F_X$ of a [[scalar random variable]] has a [[continuous]] derivative, then $F'$ is a [[probability density]] of X (by [[Newton-Leibniz]]).
+-

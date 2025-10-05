@@ -1,0 +1,8 @@
+- #topology
+- [[definition]]
+	- $F \subseteq X$ is closed iff $F^c= X \setminus F$ is open
+		- an arbitrary intersection of closed sets is closed
+		- a finite union of closed sets is closed
+		- $\empty, X$ are closed
+- [[remarks]]
+	- a [[topology]] could just as easily be defined in terms of closed sets

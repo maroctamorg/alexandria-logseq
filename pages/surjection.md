@@ -1,0 +1,1 @@
+- A **surjection** is a map satisfying that all elements of the [[codomain]] are mapped to by **at least** one element of the [[domain]].

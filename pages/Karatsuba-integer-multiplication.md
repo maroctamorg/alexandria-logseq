@@ -1,0 +1,8 @@
+- #[[Design and Analysis of Algorithms]], #divide-and-conquer, #recurrence
+- [[idea]]
+	- we treat numbers in their binary representation (e.g. 2 n-bit numbers)
+	- multiply the first/last $\lceil n/2 \rceil$ binary digits with each other
+	- similar approach as [[Strassen-matrix-multiplication]]
+		- replace one recursive call (expensive, in this case multiplication), for more intermediate calculations/values (in this case additions)
+		- for large values this will pay off
+	- [[running time]]: $O(n^{\log 3})$

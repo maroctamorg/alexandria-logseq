@@ -1,0 +1,10 @@
+- #topology
+- [[definition]]
+	- $f: X \to Y$ is a homeomorphism iff
+		- $f$ is [[bijective]]
+		- $f$ is [[continuous]]
+		- $f^{-1}$ is [[continuous]]
+- [[lemmas]]
+	- if $X$ is [[Hausdorff]] and [[(topology-)compact]], any [[continuous]] [[bijection]] is a homeomorphism
+- [[locally homeomorphic]]
+-

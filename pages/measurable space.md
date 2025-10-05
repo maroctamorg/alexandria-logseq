@@ -1,0 +1,2 @@
+- A [[set]] $\Omega$ equipped with a $\sigma$-algebra $\mathcal{F}$ is called a [[measurable space]] and the [[elements]] of the [[sigma-algebra]] are called [[measurable sets]]
+-

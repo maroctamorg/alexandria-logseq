@@ -1,0 +1,12 @@
+- [[method]]
+	- given a [[recurrence formula]]
+	- make an [[assumption]] for an [[upper bound]] on the [[running time]] given some [[constants]]
+	- assume that for some $m < n$ the [[assumption]] holds
+	- prove that the [[assumption]] holds for $n$ given it holds for $m$
+	- prove the [[base case]]
+- [[conceptual-notes]]
+	- [[big-O]] notation is not compatible with [[substitution method]]
+		- we need to express the [[big-O]] element in the [[recurrence formula]] as $cf(n)$ for some constant $c$
+	- [[base case]] needs to be chosen such that it satisfies the [[assumption]] - may not be the most naive value
+- [[remarks]]
+	- we may need to subtract a lower order term in our induction assumption in order to enable a proof, i.e. rather than $T(m) \le cm^2$, we could have $T(m) \le cm^2 -m$

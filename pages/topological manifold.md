@@ -1,0 +1,21 @@
+- #topology, #[[Riemannian Geometry]]
+- [[definition]]
+	- A topological n-manifold is a [[topological space]] $M$
+		- $M$ is [[Hausdorff]]
+		- $M$ has a [[countable]] [[(topology-)basis]] (i.e., is $N_2$ or [[second-countable]])
+		- $M$ is [[locally homeomorphic]] to $\R^n$
+	- A [[chart]] in $M$ is a pair $(U, x)$ where
+		- $U \subset M$ is [[(topology-)open]]
+		- $x: U \to xU \subset \R^n$ is a [[homeomorphism]]
+	- A collection of charts $(U_i, x_i)$ that covers $M$ is called an [[atlas]]
+	- [[differentiable manifold]]
+	- [[partition of unity]]
+- [[lemma]]
+	- Let $M$ be a [[topological manifold]]. Then
+		- every $C^\infty$-atlas, $\mathcal{A}$, of $M$ belongs to a unique maximal $C^\infty$-atlas (denoted by $\overline{\mathcal{A}}$)
+			- note of clarity, $M$ can be equipped with distinct non-diffeomorphic atlases, but each smooth atlas belongs to exactly one of these
+		- $C^\infty$-atlases, $\mathcal{A}$ and $\mathcal{B}$, belong to the same maximal $C^\infty$-atlas if and only if $\mathcal{A} \cup \mathcal{B}$ is a $C^\infty$-atlas
+- [[remarks]]
+	- An [[(topology-)open]] subset of a topological n-manifold, is itself a topological n-manifold in the [[relative topology]]. This also holds for [[differentiable manifold]]s.
+	- Dimensionality is guaranteed the unique by [[Browuer's invariance of domain]].
+	- A finite union of [[second-countable]] [[(topology-)open]] sets is [[second countable]]; just pull back a countable [[(topology-)basis]] from each chart and take their finite union.

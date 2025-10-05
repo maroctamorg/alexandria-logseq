@@ -1,0 +1,3 @@
+- #[[measure theory]], #[[Probability Theory]]
+- [[definition]]
+	- We say that property $P(\omega)$ holds **almost surely** in a [[measure space]] when it holds for all $\omega \in \Omega$ except for a set of measure zero (i.e. [[nullset]]).

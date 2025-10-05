@@ -1,0 +1,4 @@
+- #topology, #homeomorphism
+- [[definition]]
+	- A [[topological space]] $X$ is locally homeomorphic to a space $Y$ iff
+		- every $a \in X$ has a [[(topology-)neighborhood]] [[homeomorphic]] to $Y$

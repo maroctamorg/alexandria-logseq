@@ -1,0 +1,7 @@
+- #[[measure theory]], #[[Probability Theory]]
+- [[definition]]
+	- If, for a measure, $\mu'$, there exists a function $f$ such that $\mu'(A) = \int_A fd\mu$, then the function $f$ is called the **Radon-Nikodym derivative** of $\mu'$ with respect to $\mu$ and denoted $f = \frac{d\mu'}{d\mu}$.
+		- [[probability density]]
+- [[theorem]]
+	- [[Radon-Nikodym theorem]]
+		- if $\mu(A) = 0 \implies \mu'(A) = 0$, then there exists $f = \frac{d\mu'}{d\mu}$

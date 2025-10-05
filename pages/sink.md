@@ -1,0 +1,3 @@
+- #[[Design and Analysis of Algorithms]]
+- [[definition]]
+	- A **sink** is a vertex in a [[directed graph]] with no outgoing [[arc]]s (i.e. [[outdegree]] 0).

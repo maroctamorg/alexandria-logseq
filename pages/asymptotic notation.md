@@ -1,0 +1,11 @@
+- #[[Design and Analysis of Algorithms]]
+- [[definition]] (below $n \in \N$)
+	- $g(n)$ is an [[asymptotic tight bound]] for $f(n)$
+		- denoted $f(n)=\Theta(g(n))$
+		- $\exists c_1, c_2, n_0 > 0$, such that $0 \le c_1 g(n) \le f(n) \le c_2 g(n)$ for all $n \ge n_0$
+	- $g(n)$ is an [[asymptotic upper bound]] for $f(n)$
+		- denoted $f(n)=O(g(n))$
+		- $\exists c, n_0 > 0$, such that $0 \le f(n) \le c g(n)$ for all $n \ge n_0$
+- $g(n)$ is an [[asymptotic lower bound]] for $f(n)$
+	- denoted $f(n)=\Omega(g(n))$
+	- $\exists c, n_0 > 0$, such that $0 \le c g(n) \le f(n)$ for all $n \ge n_0$

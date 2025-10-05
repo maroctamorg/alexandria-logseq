@@ -1,0 +1,5 @@
+- Given a [[recurrence formula]] in the form: $T(n) = aT(n/b)+f(n)$
+	- If $f(n) = O(n^{(\log_b a) - \epsilon})$ for some $\epsilon >0$, then $T(n) = \Theta(n^{\log_b a})$
+	- If $f(n) = \Theta(n^{\log_b a})$, then $T(n) = \Theta(n^{\log_b a} \log n)$
+	- If $f(n) = O(n^{(\log_b a) + \epsilon})$ for some $\epsilon >0$, and if $af(n/b) \le cf(n)$ for some $c < 1$ and all *sufficiently large* $n$, then $T(n) = \Theta(f(n))$
+-

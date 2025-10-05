@@ -1,0 +1,3 @@
+- #algebra, #[[measure theory]], #[[Probability Theory]]
+- [[definition]]
+	- A **ring** is a [[semi-ring]] that is closed under union of disjoint sets.

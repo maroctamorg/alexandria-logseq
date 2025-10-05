@@ -1,0 +1,16 @@
+- #[[Riemannian Geometry]], #[[differentiable manifold]]
+- [[definition]]
+	- Let $M$ be a [[differentiable manifold]]. A ($C^\infty$-)**partition of unity** on $M$ is a collection $\{\phi_i : i \in I\}$ of [[real-valued]] [[smooth (manifold) mapping]]s such that
+		- the collection of [[support]]s {supp $\phi_i : i \in I$} is [[locally finite]]
+		- $\forall p \in M, i \in I$
+			- $\phi_i(p) \ge 0$
+		- $\forall p \in M$
+			- $\sum_{i \in I} \phi_i(p) = 1$
+	- A [[partition of unity]] is [[(partition of unity-)subordinate]] to a [[cover]] $\{U_\alpha : \alpha \in A\}$ with $M = \bigcup_\alpha U_\alpha$ if,
+		- $\forall i \in I, \exists \alpha \in A$ such that $\text{supp} \phi_i \subset U_\alpha$
+- [[remarks]]
+	- Above $I$ and $A$ are arbitrary (not necessarily [[countable]]) index sets.
+	- The sum  above makes sense since only finitely many terms $\phi_i(p)$ are nonzero for every $p \in M$ ([[locally finite]])
+- [[theorem]]
+	- Let $M$ be a [[differentiable manifold]] and $\{U_\alpha : \alpha \in A\}$ an [[open covering]] of $M$.
+		- Then, there exists a [[countable]] $C^\infty$-[[partition of unity]] [[(partition of unity-)subordinate]] to the open cover with [[(topology-)compact]] [[support]] (for all functions).

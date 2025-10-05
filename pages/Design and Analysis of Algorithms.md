@@ -1,0 +1,7 @@
+- [[model of computation]]
+- main approach of the course is [[reductions]]
+- [[asymptotic notation]]
+- [[recurrence]]
+- [[shortest paths]]
+- [[Flows]]
+-

@@ -1,0 +1,4 @@
+- #analysis, #[[Riemannian Geometry]], #[[differential geometry]]
+- [[definition]]
+	- A diffeomorphism is a smooth (i.e. $C^\infty$) map with a smooth inverse.
+		- i.e. infinitely differentiable/continuous

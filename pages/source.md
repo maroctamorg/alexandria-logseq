@@ -1,0 +1,3 @@
+- #[[Design and Analysis of Algorithms]]
+- [[definition]]
+	- A **source** is a vertex in a [[directed graph]]  with no incoming [[arc]]s (i.e. [[indigree]] 0).

@@ -1,0 +1,9 @@
+- #[[Software Architectures]]
+- The **Context **for the pattern is the following: We are dealing with information processing systems that have many concurrent users and that need to store data persistently. Such systems often need to interact with other systems running in the same system environment, or with external systems. Security, reliability, and scalability are important qualities.
+- The **Problem **is how to build a modular client-server system where the main elements can be deployed into separate execution environments that can be also physically distributed?
+- The **Forces **that need to be reconciled are as follows: There is an overall goal to develop modular software with well-defined interfaces that can be developed and maintained as independent modules on separate platforms. Furthermore, the modules can be upgraded or replaced independently in response to changes in requirements or technology. And while enforcing security, reliability, and robustness.
+- The Three-Tier pattern is the base of the **solution**. The multitier pattern builds on this by breaking up the middle tier (’business logic’) into two or more tiers. So, we end up with an overall structure of four or more tiers. For example:
+	- Presentation tier, responsible for interaction with users.
+	- Application or Service Tier, responsible for access point to services, session management and so on.
+	- Business logic, responsible for domain objects and operations on them.
+	- And Data access, responsible for storing and accessing persistent data, typically including a data mapping layer hiding the actual storage service and its data schema from the upper tiers.

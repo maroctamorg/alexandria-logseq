@@ -1,0 +1,5 @@
+- #[[Probability Theory]]
+- [[definition]]
+	- A [[probability measure]] $\mu$ on a [[sigma-algebra]] $(\Omega, F)$ is a [[measure]] s.t.
+		- $\mu(\Omega) = 1$
+- [[corollaries]]

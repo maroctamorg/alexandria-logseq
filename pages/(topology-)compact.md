@@ -1,0 +1,9 @@
+- #topology
+- [[definition]]
+	- A space $X$ is compact iff every [[open covering]] of $X$ has a finite [[subcovering]]
+	- A subset $A \subset X$ is compact iff it is a compact space in the [[relative topology]]
+		- i.e. $A$ is compact iff all of it's $X$-[[open covering]]s have a finite [[subcovering]]
+- [[corollaries]]
+	- A closed subset of a compact space is compact
+	- The image of a compact set in a [[(topology-)continuous]] map is compact
+	- If $\empty \ne X$ is compact and $f: X \to \R$ is [[(topology-)continuous]], then $f$ has a largest and smallest value

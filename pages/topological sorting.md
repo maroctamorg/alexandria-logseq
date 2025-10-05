@@ -1,0 +1,14 @@
+- #[[Design and Analysis of Algorithms]]
+- [[definition]]
+	- A **topological sorting** of a [[directed acyclic graph]] ([[DAG]]) is an ordering of its vertices in such a way that for each directed edge from $u$ to $v$, the vertex $u$ comes before $v$ in the topological sorting.
+		- i.e. the graph gets flattened horizontally so that the direction of the edges is maintained left-to-right
+- [[Kanh's algorithm]]
+	- [[definition]]
+		- Initialize a table $d$ such that for each vertex $v$, $d[v]$ is the [[indigree]] of the vertex $v$.
+		- Insert into a set $S$ all vertices with [[indigree]] 0.
+		- While $S$ is not empty:
+			- Remove vertex $v$ from $S$ and add it to $L$ (output list of sorted vertices);
+			- For each [[outneighbor]] $u$ of $v$, decrease $d[u]$ by one;
+			- For any [[outneighbor]] $u$ of $v$ with $d[u] = 0$, add $u$ to $S$.
+	- [[analysis]]
+		- It runs in $O(|V| + |E|)$.

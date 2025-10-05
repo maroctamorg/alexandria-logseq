@@ -1,0 +1,35 @@
+- #[[measure theory]] #[[probability theory]]
+- [[definition]]
+	- Let $\Omega$ be a set and $\mathcal{F} \subset 2^{\sigma}$ a collection of its subsets.
+	  $\mathcal{F}$ is called a $\sigma$-algebra if
+		- $\empty \in \mathcal{F}$
+		- A $\in \mathcal{F} \implies A^c=\Omega \backslash A \in \mathcal{F}$
+		- if $A_i$ is a [[sequence]] s.t. $A_i \in \mathcal{F} \implies \bigcup_{i} A_i \in \mathcal{F}$
+- [[lemmas]]
+	- [[closed-under-countable-intersections]]
+		- $A,B \in \mathcal{F} \implies B \setminus A = B \cap A^c \in \mathcal{F}$
+	- [[sigma-algebra-intersections]]
+		- The intersection of an arbitrary collection of $\sigma$-algebras is also a $\sigma$-algebra
+- [[corollaries]]
+	- [[smallest-sigma-algebra]]
+		- GIven $\mathcal{A} \subset 2^{\Omega}$, we define $\sigma(\mathcal{A})$ to be the smallest [[sigma-algebra]] containing $\mathcal{A}$.
+		  That is, if $\mathcal{F}$ is a $\sigma$-algebra s.t. $\mathcal{A} \subset \mathcal{F}$, then $\sigma(\mathcal{A}) \subset \mathcal{F}$
+		- Given #sigma-algebra-intersections, $\sigma(\mathcal{A})$ is simply the intersection of all $\sigma$-algebras of $\Omega$ containing $\mathcal{A}$
+			- If $\Omega$ is a [[topological space]], then if $\mathcal{A}$ is the set of all open subsets of $\Omega$, $\sigma(\mathcal{A})$ is the [[Borel sigma-algebra]] $\mathcal{B}(\Omega)$
+- [[theorems]]
+	- [[Dynkin's theorem]]
+	-
+-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-

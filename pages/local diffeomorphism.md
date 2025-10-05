@@ -1,0 +1,3 @@
+- #[[differential geometry]], #[[Riemannian Geometry]]
+- [[definition]]
+	- A mapping $f: M \to N$ is a **local diffeomorphism** at $p \in M$ if there are neighborhoods $U$ of $p$ and $V$ of $f(p)$ such that $f: U \to V$ is a [[diffeomorphism]].

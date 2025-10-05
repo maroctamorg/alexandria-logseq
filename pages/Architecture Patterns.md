@@ -1,0 +1,20 @@
+- [[definition]]
+	- An **architecture pattern** is a template for solving particular problems in specific contexts.
+	- It can be characterised by the following properties:
+		- [[context]]
+			- what is the situation and constraints where this pattern applies?
+		- [[problem]]
+			- what is the problem addressed by this pattern?
+		- [[forces]]
+			- what are the desired properties and qualities, as well as trade-offs, relevant to this pattern?
+		- [[solution]]
+			- what is the proposed approach to solve the problem?
+- [[examples]]
+	- [[traditional patterns]]
+		- [[N-Tier]]
+		- [[MVC]]
+	- [[modern patterns]]
+		- [[messaging]]
+		- [[event-driven]] (variation of [[messaging]])
+		- [[microservices]] ([[Architecture Styles]])
+	-

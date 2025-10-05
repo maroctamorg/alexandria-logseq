@@ -1,0 +1,13 @@
+- #[[measure theory]], #[[Probability Theory]]
+- [[definition]]
+	- A collection $\mathcal{A} \subset 2^\Omega$ is called a [[lambda-system]] if
+		- $\Omega \in \mathcal{A}$
+		- $A, B \in \mathcal{A} \land A \subset B \implies B \setminus A \in \mathcal{A}$
+		- $A_i \in \mathcal{A}, A_1 \subset A_2 \subset .. \implies \bigcup_i A_i \in \mathcal{A}$
+- [[remarks]]
+	- under the first two conditions, the third is equivalent to closedness over disjoint unions
+	- the differentiating factor between a [[lambda-system]] and a [[sigma-algebra]] is that a [[sigma-algebra]] is closed under arbitrary unions, while [[lambda]] is exclusive to disjoint sets
+	- the 3rd condition is analogous to [[lower continuity]] in a [[measure space]] but looser (more generic) as it can be used to prove the third point in the definition of a [[sigma-algebra]] in combination with finite union/intersection
+- [[lemma]]
+	- based on the above, a [[lambda-system]] that is closed under finite unions or intersections is a [[sigma-algebra]], or otherwise expressed:
+		- If $\mathcal{A}$ is both a [[pi-system]] and a [[lambda-system]], then it is a [[sigma-algebra]]

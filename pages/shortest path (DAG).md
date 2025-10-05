@@ -1,0 +1,20 @@
+- #[[Design and Analysis of Algorithms]]
+- Let $G = (E, V)$ be a [[directed acyclic graph]], with a cost function $c : E \to \R$.
+  The goal is to find a shortest path from a [[source]] to a [[sink]] which minimizes the sum of edge costs.
+- [[algorithm]]
+	- preparation:
+		- First, complete the graph by adding a supersource $s$ connected to all original sources $s'$ and cost $c(s, s') = 0$, and likewise, a supersink $t$;
+		- compute the [[topological sorting]] of the DAG: $s = v_1, v_2, ..., v_n = t$
+		- initialize distance from the supersink, $d(v)$, and predecessor, $\pi(v)$, for each vertex, $v$, as infinite and null respectively
+		- set $d(s) = 0$
+	- iterate over the [[topological sorting]] from left to right:
+		- compute $\pi(v_i) := v : min_{(v, v_i) \in E} d(v_i)$
+		- then $d(v_i) = d(\pi(v_i)) + c(v, v_i)$
+	- the shortest path is then $d(t)$ and is traced back by $\pi : V \to V$
+- [[analysis]]
+	- the whole process takes $O(|V| + |E|)$, since thanks to the [[topological sorting]] we only need to check each edge once
+- [[remarks]]
+	- the key points here are that
+		- subpaths of a shortest path are themselves shortest paths
+		- [[topological sorting]] gives us an order in which it is sufficient to check each edge only once
+-

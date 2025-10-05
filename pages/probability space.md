@@ -1,0 +1,24 @@
+- #[[Probability Theory]]
+- [[definition]]
+	- A **probability space** is a triple $(\Omega, \mathcal{F}, \mathbb{P}$), where $\Omega$ is a set, $\mathcal{F}$ is a [[sigma-algebra]] on $\Omega$, and $\mathbb{P}$ is a [[probability measure]] on $\mathcal{F}$
+	- Given a **probability space**, a [[measurable map]] from $(\Omega, \mathcal{F})$ to a [[measurable space]] $(\Omega`, \mathcal{F}`)$ is called a *[[random variable]]* (*with values in* $\Omega`$)
+	- If $X$ is a [[random variable]], then the measure on $\mathcal{F}'$ given by $\mu(A) := \mathbb{P}(X^{-1}(A))$ is called the [[random variable distribution]] of $X$
+	- A [[scalar random variable]] $X$ is a [[measurable map]] $X : (\Omega, \mathcal{F}) \to (\R, \mathcal{B}(\R))$ s. that its [[random variable distribution]] is the function
+	  $$F_X(a) = \mathbb{P}(X \in (-\infty, a])$$
+		- this is called [[probability distribution function]] or [[cumulative distribution function]]
+- [[conventions]]
+	- when speaking about random variables, $\mathcal{F}`$ is not usually mentioned
+	- if $\Omega'$ is a topological space, then we assume $\mathcal{F}'=\mathcal{B}(\Omega')$
+- [[corollaries]]
+	- [[conditional probability]]
+- [[lemma]]
+	- For any [[scalar random variable]] $X$, $F_X(a)$ is
+		- non-decreasing
+		- [[right-continuous]]
+		- has limits
+			- $\lim_{a \to +\infty} F_X(a) = 1$
+			- $\lim_{a \to -\infty} F_X(a) = 0$
+	- Conversely, if $F$ is any function with these properties, then there exists a [[probability measure]] $\mu$ on $\mathcal{B}(\R)$ such that $F(a) = \mu((-\infty, a])$.
+- [[conceptual-notes]]
+	- the properties of the [[probability distribution function]] follow from [[monotonicity]] and [[lower continuity]]/ [[upper continuity]] of [[measure]]
+	- the [[measure]] can be constructed as the [[push-forward measure]] by $F^{-1}$.

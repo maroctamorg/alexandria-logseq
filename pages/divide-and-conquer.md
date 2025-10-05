@@ -1,0 +1,6 @@
+- #[[Design and Analysis of Algorithms]]
+	- [[idea]]
+		- divide the input into smaller parts, satisfying the conditions
+		- solve each part independently (often via [[recurrence]])
+		- combine the solutions for each part
+		- analyze the running time (often via [[analysis of recurrences]])

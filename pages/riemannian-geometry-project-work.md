@@ -1,0 +1,10 @@
+- [[ideas]]
+	- [[neural-manifolds]]
+		- https://en.wikipedia.org/wiki/Manifold_hypothesis
+		- https://en.wikipedia.org/wiki/Fisher_information_metric
+		- https://medium.com/bits-and-neurons/neural-manifolds-linear-algebra-and-topology-in-neuroscience-dde5a8181811
+		- https://arxiv.org/abs/2503.01867
+		- https://ai.meta.com/research/publications/neural-manifold-ordinary-differential-equations/
+		- https://www.thetransmitter.org/neural-dynamics/neural-manifolds-latest-buzzword-or-pathway-to-understand-the-brain/
+		- https://www.nature.com/articles/s41592-024-02582-2\https://pubmed.ncbi.nlm.nih.gov/40721675/
+	-

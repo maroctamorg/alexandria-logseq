@@ -1,0 +1,18 @@
+- #[[Design and Analysis of Algorithms]]
+- [[definition]]
+	- Let $G = (V, E)$ be a [[flow network]].
+	  The [[maximum flow]] problem is to find [[flow]] $f$ with maximum [[total flow]] $|f|$.
+		- i.e. [[capacity]] is assumed fixed and we vary $f$.
+- [[algorithms]]
+	- [[Ford-Fulkerson]]
+	- [[Edmonds-Karp]]
+- [[reductions]]
+	- [[idea]]: given an integer maximisation problem with a graph representation, we can construct a network with integer flows and capacities such that the total flow corresponds to the quantity being maximised in the original problem; then [[maximum flow]] is a solution to the original problem
+		- we do this by clever construction of source -> vertex -> vertex -> sink networks (arcs and capacities), and prove equivalence by appropriate choice of flows
+		- at all times, [[flow conservation]] is a guiding constraint - the [[flow network]] should be constructed such that it reflects/enforces the optimization constraint in the original problem
+	- [[vertex-disjoint paths]]
+		- [[idea]]: we can construct a positive-integer flow network s. that each out of $k$ vertex-disjoint paths maps to one flow path (i.e. path of edges with capacity > 0) in the network which contributes 1 to the total flow; then it follows that the [[total flow]] is $k$, and maximising the flow corresponds to maximising the number of vertex-disjoint paths and vice-versa
+	- [[maximum cardinality matching]]
+		- [[idea]] construct a positive-integer flow network s. that each matching of size $k$ corresponds to a total flow of $k$; the matching target partition can only receive one match from the source partition, so we must restrain the flows between edges of these two sets as 1.
+	-
+	-

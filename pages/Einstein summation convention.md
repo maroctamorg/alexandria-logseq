@@ -1,0 +1,3 @@
+- #[[Riemannian Geometry]]
+- [[convention]]
+	- If in a term the same index appears twice, both as upper and a lower index, that term is assumed to be summed over all possible values of that index (usually from 1 to the dimension).

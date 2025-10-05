@@ -1,0 +1,12 @@
+- [[course-details]]
+	- [[riemannian-geometry-project-work]]
+	- [[riemannian-geometry-exercises]]
+- motivation
+	- [[Gaussian curvature]]
+- [[topological manifold]]
+- [[tangent space]]
+- [[tangent bundle]]
+- [[vector field]]
+- [[tensors and tensor fields]]
+-
+- [[riemannian metric]]

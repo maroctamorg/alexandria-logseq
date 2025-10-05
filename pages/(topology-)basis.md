@@ -1,0 +1,13 @@
+- #topology
+- [[definition]]
+	- Let $\mathcal{T}$ be a [[topology]] in X.
+	  We say $B \subset \mathcal{P}(X)$ is a basis for $\mathcal{T}$ iff
+		- $B \subset \mathcal{T}$
+		- $\forall U \in \mathcal{T}, U \ne \empty, \exists B_U \subseteq B$ s. t. $\bigcup B_U = U$
+- [[remarks]]
+- A basis determines a [[topology]] uniquely
+- [[theorem]]
+	- [[basis-theorem]] $B$ is a basis for some [[topology]] in $X$ iff
+		- $B$ is a [[(topology-)covering]] of X
+		- $U_1, U_2 \in B$ and $x \in U_1 \cap U_2$ \implies $\exists U \in B$ s.t. $x \in U \subseteq U_1 \cap U_2$
+		-

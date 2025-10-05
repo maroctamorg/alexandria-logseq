@@ -1,0 +1,5 @@
+- #topology
+- [[definition]]
+	- Let $x \in A \subseteq X$, $U \subseteq X$ be [[(topology-)open]]
+		- if $x \in U \subseteq X$, then $U$ is a [[(topology-)neighborhood]] of the point $x$
+		- if $A \subseteq U$, then $U$ is a [[(topology-)neighborhood]] of the set $A$

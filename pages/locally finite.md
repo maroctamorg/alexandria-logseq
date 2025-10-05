@@ -1,0 +1,2 @@
+- [[definition]]
+	- A collection ${A_i : i \in I}$ is **locally finite** if each $p \in M$ has a [[(topology-)neighborhood]] $U \ni p$ such that $U \cap A_i \ne \empty$ for only finitely many $i$.

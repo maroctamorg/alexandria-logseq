@@ -1,0 +1,6 @@
+- #[[Design and Analysis of Algorithms]]
+- [[idea]]
+	- **basic** [[recurrence]]/[[divide-and-conquer]] approach: split matrix into 4 submatrices of size $\frac{n}{2}$ and calculate the 8 multiplications required (one per target submatrix)
+		- [[running time]]: $O(n^3)$
+	- **key**: realize that one of the [[recursive]] calls can be avoided by storing and reusing certain results into intermediate matrices
+	- [[running time]]: $O(n^{\log 7}) < O(n^3)$

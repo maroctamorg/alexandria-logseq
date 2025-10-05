@@ -1,0 +1,14 @@
+- #[[Design and Analysis of Algorithms]]
+- [[problem]]
+	- [[maximum flow]]
+- [[idea]]
+	- choose the shortest s-t path in the [[residual network]] as the [[augmenting path]]
+	- otherwise identical to [[Ford-Fulkerson]]
+- [[proof]]
+	- [[lemma]]
+		- The shortest path $\delta_f(s, v)$ increases [[monotonically]] with each [[flow augmentation]].
+- [[analysis]]
+	- $O(|V||E|^2)$ running time
+- [[remarks]]
+	- simple shortest path solution (without cost)
+	-

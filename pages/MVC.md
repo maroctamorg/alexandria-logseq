@@ -1,0 +1,12 @@
+- #[[Software Architectures]]
+- The **context **of the original Model-View-Controller pattern is Interactive applications that have a flexible human-computer interface. User interfaces are prone to change and different users have different needs. Building a system with a flexible and adaptable UI is expensive and error-prone if the user interface is tightly coupled with the functional core. This can even result in having to develop and maintain separate versions of the application, one for each user interface implementation.
+- So, the **problem **is how to enable many different user interfaces to the same application functionality so that the UIs can be independently changed and replaced?
+- The **forces **at play are:
+	- The same information is presented differently in different windows, for example, in a bar chart or a pie chart.
+	- The display and behavior of the application must reflect data manipulations immediately, in all windows.
+	- Changes to the user interface should be easy, and even possible at run-time.
+	- Supporting different ‘look and feel’ standards or porting the user interface should not affect code in the core of the application.
+- The **solution **to this problem applies the principles of separation of concerns and information hiding. It divides the application into three areas of responsibility, represented by three types of runtime elements:
+	- The *Model *element encapsulates core data and functionality. It is independent of specific output representations or input behavior.
+	- *View *elements display information to the user. A view obtains the data to display from the model. There can be multiple views to the model.
+	- Each view has an associated *controller*. Controllers receive input, usually as events that encode mouse movement, activation of mouse buttons, or keyboard input. Controller translates events to service requests either to the model or to the view. The user interacts with the system solely through controllers that mediate her actions.

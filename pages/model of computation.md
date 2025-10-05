@@ -1,0 +1,8 @@
+- components
+	- RAM
+	- processor running a constant size program, with constant time memory cell access
+	- ***word*** ram
+		- constant time logical and arithmetic operations on words of size ***w*** bits
+		- where $w=\theta(\log n)$, where $n$ is input length
+		- this allows constant-time pointers approximation
+			- **note** - except for large number problems
