@@ -1,0 +1,6 @@
+- A domain model expresses [[enduring truths]] about the domain that are not under the control of the developers
+- It has 4 parts
+	- [[Information Model]]
+	- [[Invariants]] (constraints)
+	- [[Snapshots]]
+	- [[Functionality Scenarios]]

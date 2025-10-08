@@ -1,0 +1,6 @@
+- [[hierarchy]]
+	- [[Domain Model]]
+		- designation
+	- [[Design Model]]
+		- refinement
+	- [[Code Model]]

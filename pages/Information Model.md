@@ -1,0 +1,4 @@
+- Lists the **types** of things in the [[domain]], **defines** them and describes the **relationships** between them.
+- [[presentation]]
+	- [[textual information model]]: a table of types and definitions with references to other elements clearly highlighted (e.g. capitalised)
+	- [[graphical (UML) information model]]

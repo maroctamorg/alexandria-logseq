@@ -1,0 +1,12 @@
+- [[definition]]
+	- The *design model* presents the key aspects of the architectural structures and design decisions through curated [[(software-architecture-)view]]s. The verb curate means to “select, organize, and look after the items in a collection”.
+- [[(software-architecture-)view]]s
+	- [[boundary model]]
+		- [[use cases]]
+		- [[Functionality Scenarios]]
+		- [[quality attribute scenarios]]
+		- [[system context]]
+		- [[modules]]
+		- [[deployment]]
+	- [[internals model]]
+		- [[hierarchical component assemblies]]

@@ -1,0 +1,1 @@
+- The **internal** view to the system is provided by a hierarchy of structural [[(software-architecture-)view]]s that show assemblies of components – the decomposition of the system into functional elements that then have their own internal structure and so on.

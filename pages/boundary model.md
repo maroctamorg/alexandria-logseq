@@ -1,0 +1,1 @@
+- The **boundary** model describes the  **[[(software-architecture-)view]] s to the architecture from the outside of the system** while hiding the architectural structures within the system.

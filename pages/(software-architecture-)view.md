@@ -1,0 +1,1 @@
+- A **view** is a projection of the ’complete design’ from a certain viewpoint, serving particular information needs.
