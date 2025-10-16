@@ -1,0 +1,4 @@
+- A **system context**, that is usually specified as a diagram, shows the external systems that interact with the system under design.
+- The view shows all the systems as runtime [[components]] connected by communication pathways called [[connectors]] that are attached to the components at [[ports]].
+- A test for a system context diagram is that it must be possible to explain the system-level interactions specified in the [[use cases]]  and [[functionality scenarios]] in terms of the connections shown in the system context.
+-

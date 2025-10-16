@@ -1,0 +1,8 @@
+- [[Architecture Decision Records]]
+	- https://adr.github.io/
+	- Y-statement format:
+		- In the context of <use case/user story u>, facing <concern o>
+		- we decided for <option o> and neglected <other options>,
+		- to achieve <system qualities/desired consequences>,
+		- accepting <downside d/undesired consequences>,
+		- because <additional rationale>

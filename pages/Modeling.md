@@ -1,3 +1,4 @@
 - #[[Software Architectures]]
-- [[Canonical Model Structure]]
 - [[Domain-Driven Design]]
+- [[Canonical Model Structure]]
+- [[C4]]

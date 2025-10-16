@@ -10,3 +10,7 @@
 		- [[deployment]]
 	- [[internals model]]
 		- [[hierarchical component assemblies]]
+		- list of responsibilities
+		- sequence diagrams that represent [[functionality scenarios]] at the level of [[components]]
+	- [[design decisions]]
+-
