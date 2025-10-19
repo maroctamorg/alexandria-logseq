@@ -1,0 +1,15 @@
+- [[definition]]
+  - Events $A,B\in\mathcal{F}$ are independent if $\mathbb{P}(A\cap B)=\mathbb{P}(A)\mathbb{P}(B)$.
+  - $A_1,\dots,A_n$ independent if $\mathbb{P}(\cap_{i\in I}A_i)=\prod_{i\in I}\mathbb{P}(A_i)$ for all nonempty $I\subset\{1,\dots,n\}$.
+  - Countable family independent if all finite subfamilies are independent.
+  - Collections $(\mathcal{A}_t)_{t\in T}$ are independent if $\mathbb{P}(\cap_{j=1}^m A_j)=\prod_{j=1}^m\mathbb{P}(A_j)$ for any choice $A_j\in\mathcal{A}_{t_j}$.
+  - Independence of $\sigma$-algebras $\mathcal{G}_1,\dots,\mathcal{G}_n$: for all $G_i\in\mathcal{G}_i$, $\mathbb{P}(\cap_i G_i)=\prod_i \mathbb{P}(G_i)$.
+- [[remarks]]
+  - Pairwise independence is weaker than independence.
+  - If $\mathbb{P}(A)=0$, then $A$ is independent of any $B$.
+- [[tips]] (Solutions5)
+  - To lift independence from a generating $\pi$-system, fix one side and show the other side forms a $\lambda$-system; apply [[Dynkin's theorem]].
+
+- [[theorem]] (lifting independence via $\pi$–$\lambda$)
+  - If $\mathcal{A}$ is a $\pi$-system and $E$ is an event independent of all $A\in\mathcal{A}$, then $E$ is independent of all events in $\sigma(\mathcal{A})$.
+  - Likewise, if $\mathcal{A}_1,\dots,\mathcal{A}_n$ are $\pi$-systems that are mutually independent, then the generated $\sigma$-algebras $\sigma(\mathcal{A}_1),\dots,\sigma(\mathcal{A}_n)$ are mutually independent.    

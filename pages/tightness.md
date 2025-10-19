@@ -1,0 +1,6 @@
+- [[definition]]
+  - $(X_n)$ is tight if $\forall\varepsilon>0\ \exists M:\ \sup_n\mathbb{P}(|X_n|>M)<\varepsilon$.
+- [[usage]]
+  - Pre-compactness of laws on $\mathbb{R}$: every tight sequence has a weakly convergent subsequence ([[Helly's selection theorem]]).
+- [[note]]
+  - Tightness + pointwise [[characteristic function]] convergence often implies distributional convergence.

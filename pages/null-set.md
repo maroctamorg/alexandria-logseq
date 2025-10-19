@@ -1,0 +1,6 @@
+- #[[measure theory]]
+- [[definition]]
+	- Given a [[measure space]], a set $A \subset \Omega$ is called a **null-set** if it is contained in a [[measurable]] set of measure zero.
+- $\mu$ is a [[complete measure]] if all [[null-set]]s are $\mathcal{F}$-[[measurable]]
+	- if it is not complete, then there exists a [[(measure-)completion]] of $\mu$ to the set of unions of [[null-set]]s with [[measurable]] sets, defined naturally
+	- for product spaces, we denote $\mathcal{F}_1 \otimes \mathcal{F}_2$ the [[(measure-)completion]] of $\sigma(\mathcal{F}_1 \times \mathcal{F}_2$ with respect to the [[product measure]]

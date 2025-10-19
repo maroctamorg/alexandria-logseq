@@ -1,0 +1,1 @@
+- The principle of Separation of Concerns states that different or unrelated [[responsibilities]] should be allocated into separate elements. Consequently, each element should then have a distinct, well understood *reason to exist*.

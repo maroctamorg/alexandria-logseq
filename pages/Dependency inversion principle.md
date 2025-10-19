@@ -1,0 +1,5 @@
+- The **dependency inversion principle** (DIP) states to depend upon abstractions, not concretes.
+- Importance:
+	- [[Loose coupling]]: Reduces dependencies between modules, making the code more flexible and easier to test.
+	- [[Flexibility]]: Enables changes to implementations without affecting clients.
+	- [[Maintainability]]: Makes code easier to understand and modify.

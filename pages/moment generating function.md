@@ -1,0 +1,7 @@
+- [[definition]]
+  - For a scalar random variable $X$, the moment generating function is $M_X(\lambda)=\mathbb{E}[e^{\lambda X}]$ when finite.
+- [[properties]]
+  - $\log M_X$ is convex; $M_{X+Y}=M_X M_Y$ for independent $X,Y$.
+- [[usage]]
+  - Large deviation bounds (Chernoff); differentiability at $0$ gives moments when finite.
+- [[link]] see also [[characteristic function]].

@@ -1,0 +1,6 @@
+- [[theorem]] (WLLN)
+  - If $X_1,\dots,X_n$ are i.i.d. with $\mu=\mathbb{E}X_1$ and $\operatorname{Var}(X_1)<\infty$, then $\bar{X}_n:=\frac{1}{n}\sum_{i=1}^n X_i\xrightarrow{\mathbb{P}}\mu$.
+- [[useful bound]]
+  - Chebyshev: $\mathbb{P}(|\bar{X}_n-\mu|>\varepsilon)\le \operatorname{Var}(X_1)/(n\varepsilon^2)$.
+- [[hint]]
+  - Truncation + variance control yields WLLN under finite variance; see lecture proof outline.

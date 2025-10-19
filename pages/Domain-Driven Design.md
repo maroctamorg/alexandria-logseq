@@ -1,5 +1,7 @@
+- The DDD is an approach to designing software systems, as the name implies. It all starts from understanding the domain and the problems that the software needs to solve by communicating with domain experts. The first goal is to create a common language that can be unique to a part of the whole domain in order to create shared understanding and confidence, that the development team(s) are solving the correct problem.
 - [[elements]]
 	- [[Bounded Context]]
 	- [[Ubiquitous Language]]
 	- [[Subdomain]]
 	- [[Context Mapping]]
+	- [[Domain Events]]

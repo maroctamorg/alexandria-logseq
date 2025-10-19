@@ -1,0 +1,5 @@
+- The **Liskov substitution principle** (LSP) states that functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it.
+- Importance:
+	- [[Polymorphism]]: Enables the use of polymorphic behavior, making code more flexible and reusable.
+	- [[Reliability]]: Ensures that subclasses adhere to the contract defined by the superclass.
+	- [[Predictability]]: Guarantees that replacing a superclass object with a subclass object won't break the program.

@@ -1,0 +1,1 @@
+- Invariants (or constraints) express predicates that must *always *be *true*.

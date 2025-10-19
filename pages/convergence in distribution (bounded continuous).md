@@ -1,0 +1,1 @@
+- See [[convergence of random variables]] (bounded-continuous test function equivalence).

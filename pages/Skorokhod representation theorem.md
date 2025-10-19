@@ -1,0 +1,4 @@
+- [[theorem]] (Skorokhod)
+  - If $X_n\xrightarrow{d}X$ on $\mathbb{R}$, then on some probability space there exist $Y_n,Y$ with $Y_n\stackrel{d}{=}X_n$, $Y\stackrel{d}{=}X$ and $Y_n\to Y$ a.s.
+- [[hint]]
+  - Construct via inverse [[probability distribution function]] on $(0,1)$ and quantile functions; use monotonicity/right-continuity (cf. lemma on probability distribution function regularity).

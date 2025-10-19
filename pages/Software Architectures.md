@@ -1,3 +1,5 @@
+- [[Design Principles]]
 - [[Architecture Patterns and Styles]]
+- [[Domain-Driven Design]]
 - [[Modeling]]
--
+- [[design decisions]]

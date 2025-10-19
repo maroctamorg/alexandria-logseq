@@ -11,4 +11,18 @@
 	- the reason we deal with subsets of the probability space (i.e. [[(probability-)events]] $\mathcal{F}$) is that singular events in an uncountable probability may not have any meaningful probability to ascribe - so, the element of probability is not the singular event but statements about sets of [[outcomes]] (e.g. the set of all uncountable sequences of outcomes starting with a specific finite sequence, this has a non-trivial finite probability)
 		- this then allows us to construct more complex probabilities for outcomes that we cannot trivially derive via countable additions - that is why [[measure theory]] is the correct mathematical framework for probaility theory
 	- one useful tool to computing measures on more complex [[measure space]]s is finding an "almost bijection" to an easily-measurable set(such as $\R$) which is a mapping such that the set of points with more than one preimage has [[Lebesgue measure]] 0
--
+	- [[Dynkin's theorem]] is the workhorse to lift equality/independence from a [[pi-system]] to the generated [[sigma-algebra]]; trick: define a $\lambda$-system of “good sets” and apply $\pi$-$\lambda$.
+	- [[Caratheodory extension theorem]] gives existence/uniqueness from a [[pre-measure]] on a [[semi-ring]]; uniqueness often from $\sigma$-finiteness and agreement on a generating class.
+	- [[Cavalieri principle]] / [[Fubini's theorem]]: interchanging integrals requires integrability; if only nonnegativity holds, use [[Tonelli's theorem]]. See exercise model solution (Fubini may fail without absolute integrability).
+	- For [[probability density]] functions, right-continuity of $F_X$ and left limits matter: $\mathbb{P}(X<x)=\lim_{y\uparrow x}F_X(y)$ (Solutions1 note).
+
+- [[Section links]]
+	- 1.7: [[Fubini's theorem]], [[Tonelli's theorem]], [[product measure]] (see also [[Cavalieri principle]])
+	- 1.8 (up to Thm 1.8.3): [[cylinder set]], [[countable product of probability spaces]]
+	- 2.1: [[independent events]], [[independent random variables]] (and independence of $\sigma$-algebras)
+	- 2.2: [[Gaussian random variable]]
+	- 2.3: [[weak law of large numbers]]
+	- 2.4: [[large deviations]] (Chernoff bounds via [[moment generating function]])
+	- 2.5: [[strong law of large numbers]], [[Borel-Cantelli lemma]]
+	- 2.7–2.8: [[convergence of random variables]], [[tightness]], [[Skorokhod representation theorem]], [[Helly's selection theorem]]
+	- 2.9–2.11: [[characteristic function]], [[Fourier inversion (probability)]], [[Central Limit Theorem]]

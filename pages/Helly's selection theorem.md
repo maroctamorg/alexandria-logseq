@@ -1,0 +1,4 @@
+- [[theorem]] (Helly)
+  - A sequence of [[probability distribution function]]s $(F_n)$ is tight iff there is a subsequence $(F_{n_k})$ converging pointwise at all continuity points to a [[probability distribution function]] $F$.
+- [[usage]]
+  - Extract convergent subsequences to prove compactness of probability laws; used in CLT and characteristic-function arguments.

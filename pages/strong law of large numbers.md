@@ -1,0 +1,6 @@
+- [[theorem]] (SLLN)
+  - If $X_i$ are i.i.d. with $\mathbb{E}|X_1|<\infty$, then $\bar{X}_n\to \mathbb{E}X_1$ almost surely.
+- [[notes]]
+  - In the lecture: finite variance version first; full version via martingales later. [[Borel-Cantelli lemma]] is a key tool.
+- [[hint]]
+  - Truncation + Borel–Cantelli on large deviations of partial sums; or apply martingale methods (outside scope here).

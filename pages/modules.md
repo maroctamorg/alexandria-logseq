@@ -1,0 +1,1 @@
+- A module is a distinct part of a program that contains closely related elements. The elements work together to serve the purpose of the module expressed by its interface. So, the interface defines the role of the module in the system by specifying what it can do.

@@ -1,0 +1,8 @@
+- [[definition]]
+  - Scalar Gaussian: $X\sim \mathcal{N}(\mu,\sigma^2)$ with density $f(x)=\frac{1}{\sqrt{2\pi}\,\sigma}\exp\big(-\frac{(x-\mu)^2}{2\sigma^2}\big)$.
+- [[properties]]
+  - If $X\sim\mathcal{N}(\mu,\sigma^2)$ then $aX+b\sim\mathcal{N}(a\mu+b,a^2\sigma^2)$.
+  - Sum of independent Gaussians is Gaussian; characteristic function $\phi_X(t)=\exp(i\mu t-\tfrac12\sigma^2 t^2)$.
+- [[vector (remark)]] see [[Gaussian vector]] for $\mathbb{R}^d$.
+- [[tips]]
+  - For independence of components in a Gaussian vector with diagonal covariance, use product of one-dimensional densities.

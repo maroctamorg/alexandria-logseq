@@ -1,0 +1,1 @@
+- A [[measure space]] $(\Omega, \mathcal{F}, \mu)$ is called $\sigma$**-finite** if there is a countable sequence of finite-measure sets $E_i \in \mathcal{F}$ covering $\Omega$.

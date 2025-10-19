@@ -1,0 +1,7 @@
+- [[definition]]
+  - Random variables $X_1,\dots,X_n$ are independent if $\sigma(X_1),\dots,\sigma(X_n)$ are [[independent events]]-collections; equivalently, for Borel sets $A_i$, $\mathbb{P}(\cap_i\{X_i\in A_i\})=\prod_i\mathbb{P}(X_i\in A_i)$.
+- [[equivalences]]
+  - Independence iff joint distribution factorizes: $\mu_{(X_1,\dots,X_n)}=\bigotimes_i \mu_{X_i}$; if densities exist, $f_{(X_1,\dots,X_n)}(x)=\prod_i f_{X_i}(x_i)$.
+  - For bounded measurable $g_i$, $\mathbb{E}\prod_i g_i(X_i)=\prod_i \mathbb{E}g_i(X_i)$.
+- [[hints]]
+  - Use [[product measure]] on the codomain and the [[abstract change of variable theorem]] to pass equalities between integrals and expectations.

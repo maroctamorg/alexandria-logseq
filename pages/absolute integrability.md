@@ -1,0 +1,6 @@
+- [[definition]]
+  - A measurable $f$ on $(\Omega,\mathcal{F},\mu)$ is absolutely integrable if $\int_\Omega |f|\,d\mu<\infty$ (i.e., $f\in L^1$).
+- [[usage]]
+  - Hypothesis needed for [[Fubini's theorem]]; without it, use [[Tonelli's theorem]] for $f\ge0$ or split $f=f_+-f_-$ with both parts integrable.
+- [[tip]]
+  - In product spaces, check $\int |f|\,d(\mu_1\otimes\mu_2)<\infty$ before swapping integrals.

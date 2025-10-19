@@ -1,0 +1,5 @@
+- [[theorem]] (Borel–Cantelli)
+  - If $(A_n)$ are events and $\sum_n \mathbb{P}(A_n)<\infty$, then $\mathbb{P}(A_n\ i.o.)=0$.
+  - If $(A_n)$ independent and $\sum_n \mathbb{P}(A_n)=\infty$, then $\mathbb{P}(A_n\ i.o.)=1$.
+- [[tips]] (Solutions6)
+  - Construct counterexamples for the converse without independence by block sets in $[0,1]$; shows necessity of the sum condition.

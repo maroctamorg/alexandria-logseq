@@ -1,0 +1,3 @@
+- [[lemma]] (Riemann–Lebesgue)
+  - If $f\in L^1(\mathbb{R})$, then $\int_{\mathbb{R}} f(x)e^{itx}\,dx\to0$ as $|t|\to\infty$.
+- [[usage]] see [[characteristic function]] and [[Fourier inversion (probability)]].

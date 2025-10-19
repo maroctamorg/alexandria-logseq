@@ -1,0 +1,2 @@
+- An Information Model defines a (basically infinite) set of snapshots that conform to the model. But the information model does not tell *how *the state of the domain changes from a snapshot to snapshot in the real world.
+- The fourth part of a Domain Model called *Functionality Scenarios* convey this information: each scenario expresses a series of events that cause changes to the state and configuration of the objects in the domain.

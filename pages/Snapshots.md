@@ -1,0 +1,1 @@
+- An Information Model describes the domain at the level of types of things (classes), not instances (objects). A *Snapshot *depicts a concrete, real-life situation - a *state *- where a number of instances of the types appear as concrete objects in the domain, including their connections  (links in UML terminology) to related instances.

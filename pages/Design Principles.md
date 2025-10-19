@@ -1,0 +1,4 @@
+- There are certain general **design principles** that apply to designing [[Software Architectures]].
+	- [[Information Hiding]]
+	- [[Separation of Concerns]]
+	- [[Single Responsibility Principle]]

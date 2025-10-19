@@ -1,0 +1,5 @@
+- The **interface segregation principle** (ISP) states that clients should not be forced to depend upon interfaces that they do not use.
+- Importance:
+	- [[Decoupling]]: Reduces dependencies between classes, making the code more [modular](https://en.wikipedia.org/wiki/Modularity) and maintainable.
+	- [[Flexibility]]: Allows for more targeted implementations of interfaces.
+	- Avoids unnecessary dependencies: Clients don't have to depend on methods they don't use.

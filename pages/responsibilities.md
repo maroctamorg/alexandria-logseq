@@ -1,0 +1,1 @@
+- A **responsibility** must be understood in a wide sense; it does not mean just functionality. It can be something that an element *does*, *knows *of, or *hides *from other parts of the system.

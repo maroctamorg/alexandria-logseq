@@ -1,0 +1,9 @@
+- [[definition]]
+  - $\varphi_X(t)=\mathbb{E}[e^{itX}]$, $t\in\mathbb{R}$.
+- [[properties]]
+  - $\varphi_{X+Y}=\varphi_X\,\varphi_Y$ for independent $X,Y$.
+  - $\varphi_X(0)=1$, $|\varphi_X(t)|\le1$, uniformly continuous.
+  - If $\mathbb{E}|X|^k<\infty$, then $\varphi_X$ is $k$-times differentiable at $0$ with $\varphi_X^{(m)}(0)=i^m\mathbb{E}[X^m]$.
+- [[inversion]] see [[Fourier inversion (probability)]].
+- [[tips]]
+  - For bounds, use [[Riemann–Lebesgue lemma]] and dominated convergence for differentiation under the integral.
