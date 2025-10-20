@@ -1,0 +1,14 @@
+- #studies, #university, #[[2025 Autumn Term]]
+- [[definition]]
+	- [[probability space]]
+		- [[measure space]]
+			- $\Omega$ [[sample space]]
+			- $\mathcal{F}$ [[(probability-)events]] ([[sigma-algebra]])
+		- $\mathcal{P}$ [[probability measure]]
+	- [[probability distribution function]]
+	- [[(probability-)expectation]]
+- [[conceptual-notes]]
+	- the reason we deal with subsets of the probability space (i.e. [[(probability-)events]] $\mathcal{F}$) is that singular events in an uncountable probability may not have any meaningful probability to ascribe - so, the element of probability is not the singular event but statements about sets of [[outcomes]] (e.g. the set of all uncountable sequences of outcomes starting with a specific finite sequence, this has a non-trivial finite probability)
+		- this then allows us to construct more complex probabilities for outcomes that we cannot trivially derive via countable additions - that is why [[measure theory]] is the correct mathematical framework for probaility theory
+	- one useful tool to computing measures on more complex [[measure space]]s is finding an "almost bijection" to an easily-measurable set(such as $\R$) which is a mapping such that the set of points with more than one preimage has [[Lebesgue measure]] 0
+-

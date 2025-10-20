@@ -1,0 +1,5 @@
+- [[elements]]
+	- [[Bounded Context]]
+	- [[Ubiquitous Language]]
+	- [[Subdomain]]
+	- [[Context Mapping]]
